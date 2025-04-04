@@ -1,6 +1,7 @@
 # raymond-aaron-kasl_lab13
 ![lab13s3](https://github.com/user-attachments/assets/b6bea235-9d31-4d02-b8a4-982bf9b69613)
 ![terraform_apply](https://github.com/user-attachments/assets/1ed8c0fc-85da-4816-ac20-7609a97d6fa7)
+![beforelock](https://github.com/user-attachments/assets/836e56ba-cd84-4005-80ad-ca2ba9918509)
 
 #### When is the state file created?
 
