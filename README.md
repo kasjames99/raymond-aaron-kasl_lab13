@@ -4,12 +4,12 @@
 
 #### When is the state file created?
 
-The state file is created in the S3 bucket when terraform is initialized with terraform init
+The state file is created in the S3 bucket when terraform apply is run, since resources aren't created yet, so there's nothing to track
 
 #### When is the lock file present?
 
-The lock file is created during actions like terraform apply, temporarily
+The lock file is created temporarily during actions like terraform apply
 
 #### Is the lock file always in the bucket after it is created?
 
-No, the lock file is temporary. It's automatically removed once the Terraform operation that created it completes.
+No, the lock file is temporary. It's automatically removed once the Terraform operation that created it completes, anyone can access the tfstate file afterwards to change it
